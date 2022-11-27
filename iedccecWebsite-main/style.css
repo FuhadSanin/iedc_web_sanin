@@ -1,0 +1,19 @@
+body{
+    padding: 0px;
+    margin: 0;
+}
+
+
+/*  <----Navbar---->  */
+.navbar{
+    width: 100%;
+    height: 105px;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.left img{
+    height: 30px;
+    float: left;
+    padding: 25px;
+}

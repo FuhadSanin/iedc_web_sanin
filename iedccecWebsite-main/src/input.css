@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.nav_data{
+    font-size: 14px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-right: 10px;
+}
+
+.nav_btn{
+    background-color: black;
+    color: white;
+    font-size: 14px;
+    padding:  8px 15px;
+    border-radius:5px ;
+    margin-left: 15px;
+    transition-duration: 0.5s;
+}
+
+.nav_btn:hover{
+    background-color: transparent;
+    border: 1px solid black;
+    color: black;
+}
+.banner{
+    background-image: url('banner_img.png');
+    height: 690px;
+    margin-top: 10px;
+}
+.banner h1{
+    width: 100%;
+    font-size: 70px;
+    padding-top: 200px ;
+    font-weight: bold;
+    padding-left: 30px;
+}
+.banner p{
+    font-size: 24px;
+    margin-left: 30px;
+
+}
+.banner_btn{
+    background-color: black;
+    color: white;
+    font-size: 14px;
+    padding:  8px 15px;
+    border-radius:5px ;
+    margin-top: 15px;
+    transition-duration: 0.5s;
+    margin-left: 30px;
+    
+}
+.banner_btn:hover{
+    background-color: transparent;
+    border: 1px solid black;
+    color: black;
+}
+
